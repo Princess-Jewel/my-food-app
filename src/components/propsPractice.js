@@ -9,7 +9,7 @@
       return(
           <div>
           <div className="details">
-            <img src = {props.contact.imgurl} style= {imgstyling}></img>
+            <img src = {props.contact.imgurl} alt="" style= {imgstyling}></img>
             <h1>{props.contact.name}</h1>
             <p>{props.contact.category}</p>
             <p>{props.contact.description}</p>
