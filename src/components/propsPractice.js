@@ -2,7 +2,7 @@
 
   function FirstPractice(props){
       const imgstyling ={
-          height: "auto",
+          height: "100px",
           weight: "150pt",
           borderRadius:"20px",
           maxWidth:"100%"
