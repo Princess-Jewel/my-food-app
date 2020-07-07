@@ -2,9 +2,10 @@
 
   function FirstPractice(props){
       const imgstyling ={
-          height: "150pt",
+          height: "auto",
           weight: "150pt",
-          borderRadius:"20px"
+          borderRadius:"20px",
+          maxWidth:"100%"
      }
       return(
           <div>
