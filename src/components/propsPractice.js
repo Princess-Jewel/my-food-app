@@ -1,22 +1,17 @@
-  import React from 'react'
+import React from 'react'
+import '../App.css';
 
-  function FirstPractice(props){
-      const imgstyling ={
-          height: "100px",
-          weight: "150pt",
-          borderRadius:"20px",
-          maxWidth:"100%"
-     }
-      return(
-          <div>
-          <div className="details">
-            <img src = {props.contact.imgurl} alt="" style= {imgstyling}></img>
-            <h1>{props.contact.name}</h1>
-            <p>{props.contact.category}</p>
-            <p>{props.contact.description}</p>
+function FirstPractice(props){
+    return(
+        <div>
+        <div className="details">
+          <img src = {props.contact.imgurl} alt="rice_image" ></img>
+          <h1>{props.contact.name}</h1>
+          <p className='category'>{props.contact.category}</p>
+          <p className='description'>{props.contact.description}</p>
 
-          </div>
-          </div>
-      )
-  }
-  export default FirstPractice;
+        </div>
+        </div>
+    )
+}
+export default FirstPractice;
